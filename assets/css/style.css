@@ -31,3 +31,23 @@ body {
 #navigation ul li:hover a{
   color: #252432;
 }
+
+/* hero section css  */
+/* #flower {
+  margin-top:109px;
+  margin-bottom: 120px;
+} */
+#flower .hero-text h1{
+  /* font-size: 65px; */
+  font-weight: 700;
+  color: var(--primary-color);
+  font-family: var(--secoundry-color);
+  margin-bottom: 10px;
+}
+#flower .hero-text h1 span{
+  color: #000000;
+}
+#flower .hero-text p{
+  font-family: var(--priamry-Font);
+  color: var(--text-color);
+}
