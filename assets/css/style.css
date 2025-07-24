@@ -1,0 +1,33 @@
+
+/* Variable css  */
+:root {
+  --priamry-Font: "Inter", sans-serif;
+  --secoundry-Font: "Noto Serif", serif;
+  --primary-color: #e95a08;
+  --secoundry-color: #000000;
+  --text-color: rgba(0, 0, 0, 0.5);
+  --secoundry-text-color: #ffffff;
+}
+/* common css start  */
+body {
+  background-color: #f5f8ff;
+}
+/* .container {
+  width: 1140px;
+  margin: auto;
+} */
+
+/* nav section css start  */
+#navigation ul li a {
+  font-size: 16px;
+  font-family: var(--priamry-Font);
+  color: #8987a1;
+  padding: 18px 24px;
+  transition: .2s;
+}
+#navigation ul li a span{
+  margin-right: 10px;
+}
+#navigation ul li:hover a{
+  color: #252432;
+}
