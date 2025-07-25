@@ -12,11 +12,20 @@
 body {
   background-color: #f5f8ff;
 }
-/* .container {
-  width: 1140px;
-  margin: auto;
-} */
-
+.title{
+  font-family: var(--secoundry-Font);
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.title span{
+  color: var(--primary-color);
+}
+.title-para{
+  font-family: var(--priamry-Font);
+  color: var(--text-color);
+  text-align: center;
+}
 /* nav section css start  */
 #navigation ul li a {
   font-size: 16px;
@@ -51,3 +60,32 @@ body {
   font-family: var(--priamry-Font);
   color: var(--text-color);
 }
+
+
+/* plant section start  */
+#plant .plant-txt{
+  margin-bottom: 50px;
+}
+#plant .plant-gallery .plant-card .img-description{
+  margin: 10px 0;
+}
+#plant .plant-gallery .plant-card .img-description h4{
+  font-family: var(--priamry-Font);
+  font-weight: 500;
+  color: #111111;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#plant .plant-gallery .plant-card .img-description span{
+  font-family: var(--priamry-Font);
+  font-weight: 700;
+  text-align: center;
+  color: #111111;
+}
+#plant .plant-gallery .plant-card button{
+  font-family: var(--priamry-Font);
+  font-weight: 600;
+  color: var(--secoundry-text-color);
+  background-color: var(--primary-color);
+}
+
