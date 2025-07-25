@@ -89,3 +89,14 @@ body {
   background-color: var(--primary-color);
 }
 
+/* plant lover section start  */
+#plant_lover .plant_lover_txt .heading h3{
+    font-family: var(--secoundry-Font);
+    font-weight: 700;
+    color: var(--secoundry-color);
+}
+#plant_lover .plant_lover_txt ul li{
+  font-family: var(--priamry-Font);
+  color: var(--text-color);
+list-style-type: disc ;
+}
