@@ -100,3 +100,39 @@ body {
   color: var(--text-color);
 list-style-type: disc ;
 }
+#plant_lover .plant_lover_img .overly img{
+ filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+/* deals section start  */
+
+#deals .image-container .bloom_img{
+  background-image: url(/assets/image/deal-bloom.png);
+}
+#deals .image-container .ana_img{
+  background-image: url(/assets/image/deal-ana.png);
+
+}
+#deals .image-container .big_img{
+  background-image: url(/assets/image/deal-zabo.png);
+
+}
+
+#deals .image-container .overlay  h3{
+  font-family: var(--secoundry-Font);
+  font-weight: 700;
+  color: var(--secoundry-text-color);
+  text-align: center;
+}
+#deals .image-container .overlay a{
+  font-family: var(--priamry-Font);
+  font-weight: 600;
+  color: var(--secoundry-text-color);
+  display: block;
+  text-align: center;
+  transition: 0.3s;
+}
+#deals .image-container .overlay:hover a{
+  text-decoration: underline;
+}
