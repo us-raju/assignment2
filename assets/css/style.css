@@ -136,3 +136,30 @@ list-style-type: disc ;
 #deals .image-container .overlay:hover a{
   text-decoration: underline;
 }
+
+/* newsletter section start  */
+#nwesletter{
+  background-image: url(/assets/image/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 533px;
+}
+#nwesletter .newsletter_heading h3{
+  font-family: var(--secoundry-Font);
+  font-weight: 700;
+  color: var(--secoundry-text-color);
+  margin-bottom: 23px;
+  text-align: center;
+}
+#nwesletter .newsletter_heading .input_field input{
+  background-color: var(--secoundry-text-color);
+  outline: none;
+}
+#nwesletter .newsletter_heading .input_field button{
+  background-color: var(--primary-color);
+  font-size: 16px;
+  font-family: var(--priamry-Font);
+  font-weight: 600;
+  color: var(--secoundry-text-color);
+}
