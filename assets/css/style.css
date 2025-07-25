@@ -108,14 +108,14 @@ list-style-type: disc ;
 /* deals section start  */
 
 #deals .image-container .bloom_img{
-  background-image: url(/assets/image/deal-bloom.png);
+  background-image: url(/.assets/image/deal-bloom.png);
 }
 #deals .image-container .ana_img{
-  background-image: url(/assets/image/deal-ana.png);
+  background-image: url(./assets/image/deal-ana.png);
 
 }
 #deals .image-container .big_img{
-  background-image: url(/assets/image/deal-zabo.png);
+  background-image: url(./assets/image/deal-zabo.png);
 
 }
 
