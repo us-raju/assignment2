@@ -163,3 +163,22 @@ list-style-type: disc ;
   font-weight: 600;
   color: var(--secoundry-text-color);
 }
+
+/* footer section start  */
+#footer .footer_txt p{
+  font-family: var(--priamry-Font);
+  color: var(--text-color);
+  width: 359px;
+}
+#footer .common_styl li{
+  margin-bottom: 32px;
+
+}
+#footer .common_styl li a{
+  font-size: 16px;
+  font-family: var(--priamry-Font);
+  color: #6B7280;
+}
+#footer .icon li{
+  margin-right: 24px;
+}
