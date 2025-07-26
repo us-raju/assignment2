@@ -107,17 +107,17 @@ list-style-type: disc ;
 
 /* deals section start  */
 
-#deals .image-container .bloom_img{
-  background-image: url(/.assets/image/deal-bloom.png);
-}
-#deals .image-container .ana_img{
+/* #deals .image-container .bloom_img{
+  background-image: url(./assets/image/deal-bloom.png);
+} */
+/* #deals .image-container .ana_img{
   background-image: url(./assets/image/deal-ana.png);
 
 }
 #deals .image-container .big_img{
   background-image: url(./assets/image/deal-zabo.png);
 
-}
+} */
 
 #deals .image-container .overlay  h3{
   font-family: var(--secoundry-Font);
@@ -138,13 +138,13 @@ list-style-type: disc ;
 }
 
 /* newsletter section start  */
-#nwesletter{
+/* #nwesletter{
   background-image: url(/assets/image/news-letter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 533px;
-}
+} */
 #nwesletter .newsletter_heading h3{
   font-family: var(--secoundry-Font);
   font-weight: 700;
